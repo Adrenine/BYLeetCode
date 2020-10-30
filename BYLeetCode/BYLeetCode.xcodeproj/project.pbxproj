@@ -25,6 +25,7 @@
 		EAE49B26254423CD00600948 /* BYArrayStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE49B25254423CD00600948 /* BYArrayStack.swift */; };
 		EAE49B842546BDEF00600948 /* BYIntBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE49B832546BDEF00600948 /* BYIntBinaryTree.swift */; };
 		EAE49B882546C0FD00600948 /* LeetCode1365.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE49B872546C0FD00600948 /* LeetCode1365.swift */; };
+		EAF69AE0254BABA800A54C8C /* LeetCode463.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF69ADF254BABA800A54C8C /* LeetCode463.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +60,7 @@
 		EAE49B25254423CD00600948 /* BYArrayStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYArrayStack.swift; sourceTree = "<group>"; };
 		EAE49B832546BDEF00600948 /* BYIntBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYIntBinaryTree.swift; sourceTree = "<group>"; };
 		EAE49B872546C0FD00600948 /* LeetCode1365.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode1365.swift; sourceTree = "<group>"; };
+		EAF69ADF254BABA800A54C8C /* LeetCode463.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode463.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				EAE12D6425400486004CD11F /* LeetCode1002.swift */,
 				EAE49B872546C0FD00600948 /* LeetCode1365.swift */,
 				EA2EC8502549097600198612 /* LeetCode1207.swift */,
+				EAF69ADF254BABA800A54C8C /* LeetCode463.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				EAE49B20254422FE00600948 /* BYArrayQueue.swift in Sources */,
 				EA2EC85B254A574600198612 /* LeetCode129.swift in Sources */,
 				EAE49B882546C0FD00600948 /* LeetCode1365.swift in Sources */,
+				EAF69AE0254BABA800A54C8C /* LeetCode463.swift in Sources */,
 				EAE49B26254423CD00600948 /* BYArrayStack.swift in Sources */,
 				EAE12D902542D0A9004CD11F /* BYListNode.swift in Sources */,
 				EA2EC8512549097600198612 /* LeetCode1207.swift in Sources */,
