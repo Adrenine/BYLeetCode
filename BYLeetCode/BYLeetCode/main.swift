@@ -8,4 +8,4 @@
 import Foundation
 
 print("Hello, World!")
-LeetCode463().test()
+LeetCode654().test()

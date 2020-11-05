@@ -15,33 +15,10 @@ class BYIntBinaryTree {
         self.root = root
     }
     
-    func serialize() -> String {
-        guard let root = root else {
-            return ""
-        }
-        
-        var res = "", queue: [BYTreeNode<Int>?] = [root]
-        
-        while !queue.isEmpty {
-            let node = queue.removeFirst()
-            
-            if let node = node {
-                res.append(String(describing: node.value ?? -1)+",")
-                queue.append(node.left)
-                queue.append(node.right)
-            } else {
-                res.append("#,")
-            }
-        }
-        res.remove(at: res.index(before: res.endIndex))
-        
-        return res
-    }
-    
-    static func deserialize(_ string: String) -> BYIntBinaryTree? {
+    init(with string: String) {
         
         if string.count < 1 {
-            return nil
+            return
         }
         
         var chars = Array(string)
@@ -69,9 +46,31 @@ class BYIntBinaryTree {
             }
             i += 1
         }
-        let tree = BYIntBinaryTree()
-        tree.root = root
-        return tree
+        
+        self.root = root
+    }
+    
+    func serialize() -> String {
+        guard let root = root else {
+            return ""
+        }
+        
+        var res = "", queue: [BYTreeNode<Int>?] = [root]
+        
+        while !queue.isEmpty {
+            let node = queue.removeFirst()
+            
+            if let node = node {
+                res.append(String(describing: node.value ?? -1)+",")
+                queue.append(node.left)
+                queue.append(node.right)
+            } else {
+                res.append("#,")
+            }
+        }
+        res.remove(at: res.index(before: res.endIndex))
+        
+        return res
     }
 }
 
