@@ -8,4 +8,8 @@
 import Foundation
 
 print("Hello, World!")
-LeetCode654().test()
+BigRootHeap.test()
+SmallRootHeap.test()
+HeapSrot.test()
+CountSort.test()
+BucketSort.test()
