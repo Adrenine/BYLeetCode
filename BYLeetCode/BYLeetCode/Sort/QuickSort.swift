@@ -7,6 +7,17 @@
 
 import Foundation
 
+//《快速排序》-- 非稳定排序
+// 1.思路：
+//选一个数为基准，将小于他的数放左边，大于他的数放右边。
+// 2.方法：
+//数组array，选第一个数n1为基准，遍历后面的元素，将小
+//于他的数放左边区间NL，大于他的数放右边NR，对于NL和NR
+//区间，同样采用相同策略，选第一个数为基准，遍历后面的元
+//素放到基准元素两边，直到NL和NR区间只有一个元素。
+// 3.时间复杂度：O(nlogn)
+// 4.空间复杂度：O(logn)
+
 class QuickSort {
     class func quickSort(_ nums: inout [Int]) {
         sort(&nums, low: 0, high: nums.count - 1)

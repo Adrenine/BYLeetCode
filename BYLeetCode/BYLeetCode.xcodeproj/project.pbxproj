@@ -86,6 +86,7 @@
 		EAE49B872546C0FD00600948 /* LeetCode1365.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode1365.swift; sourceTree = "<group>"; };
 		EAF285D925593000001ADF49 /* CountSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountSort.swift; sourceTree = "<group>"; };
 		EAF285DC25593BE7001ADF49 /* BucketSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketSort.swift; sourceTree = "<group>"; };
+		EAF285FA255BBEDE001ADF49 /* Sort.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Sort.md; sourceTree = "<group>"; };
 		EAF2F855255147990065DA72 /* LeetCode941.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode941.swift; sourceTree = "<group>"; };
 		EAF2F858255292800065DA72 /* LeetCode116.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode116.swift; sourceTree = "<group>"; };
 		EAF2F85B2552A3680065DA72 /* LeetCode114.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode114.swift; sourceTree = "<group>"; };
@@ -275,15 +276,16 @@
 		EAF2F861255392DD0065DA72 /* Sort */ = {
 			isa = PBXGroup;
 			children = (
-				EAF2F8732553FB870065DA72 /* InsertSort.swift */,
-				EAF2F8772554EF340065DA72 /* ShellSort.swift */,
-				EAF2F87A255521BC0065DA72 /* SelectSort.swift */,
 				EAF2F87D25553F450065DA72 /* BubbleSort.swift */,
+				EAF285DC25593BE7001ADF49 /* BucketSort.swift */,
+				EAF285D925593000001ADF49 /* CountSort.swift */,
+				EA84558E2558DC400007C8CD /* HeapSort.swift */,
+				EAF2F8732553FB870065DA72 /* InsertSort.swift */,
 				EAF2F880255549DF0065DA72 /* MergeSort.swift */,
 				EA5AFEC225563410006B5021 /* QuickSort.swift */,
-				EA84558E2558DC400007C8CD /* HeapSort.swift */,
-				EAF285D925593000001ADF49 /* CountSort.swift */,
-				EAF285DC25593BE7001ADF49 /* BucketSort.swift */,
+				EAF2F87A255521BC0065DA72 /* SelectSort.swift */,
+				EAF2F8772554EF340065DA72 /* ShellSort.swift */,
+				EAF285FA255BBEDE001ADF49 /* Sort.md */,
 			);
 			path = Sort;
 			sourceTree = "<group>";

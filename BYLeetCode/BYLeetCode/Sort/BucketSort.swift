@@ -7,6 +7,15 @@
 
 import Foundation
 
+//《桶排序》-- 取决于区间内调用的排序方法
+// 1.思路：
+// 类似计数排序，划分区间，放入元素，对区间内元素进行排序。
+// 2.方法：
+// 划分区间N1~N10，区间大小可以自定义设置，将元素放入对应
+// 区间，调用其他排序方法进行排序，最后按区间累加。
+// 3.时间复杂度：O(？)
+// 4.空间复杂度：O(？)
+
 class BucketSort {
     class func bucketSort(_ nums: inout [Int]) {
         guard nums.count > 0 else {
